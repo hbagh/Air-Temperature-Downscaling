@@ -1,6 +1,6 @@
 # Air-Temperature-Downscaling
 
-This repository contains the Python code used in the research paper titled "Machine Learning-Based Downscaling of Urban Air Temperature Using LiDAR Data" The code implements a framework based on machine learning techniques to downscale urban climate data obtained from the UrbClim model at a lower resolution (100 m) to a higher resolution (5 m), using morphological features and meteorological data.
+This repository contains the Python code used in the research paper titled "Machine Learning-Based Downscaling of Urban Air Temperature Using LiDAR Data". The code implements a framework based on machine learning techniques to downscale urban climate data obtained from the UrbClim model at a lower resolution (100 m) to a higher resolution (5 m), using morphological features and meteorological data.
 
 ## Data Preparation
 
@@ -12,6 +12,6 @@ The `Building Footprint Detection` folder contains the code for extracting build
 
 ## Machine Learning Models
 
-The `Machine Learning Models` folder includes the code for training and testing various machine learning algorithms for estimating temperatures. The code prepares the training and test datasets and implements algorithms such as xgboost, extra trees, lightgbm, random forest, and svr. These models utilize morphological and meteorological data, to predict temperature values.
+The `Machine Learning Models` folder includes the code for training and testing various machine learning algorithms for estimating temperatures. The code prepares the training and test datasets and implements algorithms such as XGBoost, Extra Trees, LightGBM, Random Forest, and SVR. These models utilize morphological and meteorological data to predict temperature values.
 
 Please refer to the accompanying research paper for more detailed information regarding the methodology, experimental setup, and results.
